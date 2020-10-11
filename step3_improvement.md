@@ -85,85 +85,85 @@ Besides that, when small erros in the graphs code, the result is very close to t
 ![Figure 1 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure1.PNG)
 
 **Figure 1 - Replication**  
-![Figure 1 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure1.PNG)
+![Figure 1 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure1.png)
 
 **Figure 2 - Paper version**  
 ![Figure 2 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure2.PNG)
 
 **Figure 2 - Replication**  
-![Figure 2 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure2.PNG)
+![Figure 2 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure2.png)
 
 **Figure 3 - Paper version**  
 ![Figure 3 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure3.PNG)
 
 **Figure 3 - Replication**  
-![Figure 3 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure3.PNG)
+![Figure 3 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure3.png)
 
 **Figure 4 - Paper version**  
 ![Figure 4 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure4.PNG)
 
 **Figure 4 - Replication**  
-![Figure 4 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure4.PNG)
+![Figure 4 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure4.png)
 
 **Figure 5 - Paper version**  
 ![Figure 5 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure51.PNG)
 
 **Figure 5 - Replication**  
-![Figure 5 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure5.PNG)
+![Figure 5 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure5.png)
 
 **Figure 6 - Paper version**  
 ![Figure 6 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure6.PNG)
 
 **Figure 6 - Replication**  
-![Figure 6 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure6.PNG)
+![Figure 6 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure6.png)
 
 **Figure 7 - Paper version**  
 ![Figure 7 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure7.PNG)
 
 **Figure 7 - Replication**  
-![Figure 7 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure7.PNG)
+![Figure 7 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure7.png)
 
 **Figure 8 - Paper version**  
 ![Figure 8 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure8.PNG)
 
 **Figure 8 - Replication**  
-![Figure 8 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure8.PNG)
+![Figure 8 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure8.png)
 
 **Figure 9 - Paper version**  
 ![Figure 9 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure9.PNG)
 
 **Figure 9 - Replication**  
-![Figure 9 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure9.PNG)
+![Figure 9 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure9.png)
 
 **Figure 10 - Paper version**  
 ![Figure 10 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure10.PNG)
 
 **Figure 10 - Replication**  
-![Figure 10 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure10.PNG)
+![Figure 10 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure10.png)
 
 **Figure 11 - Paper version**  
 ![Figure 11 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure11.PNG)
 
 **Figure 11 - Replication**  
-![Figure 11 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure11.PNG)
+![Figure 11 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure11.png)
 
 **Figure 12 - Paper version**  
 ![Figure 12 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure12.PNG)
 
 **Figure 12 - Replication**  
-![Figure 12 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure12.PNG)
+![Figure 12 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure12.png)
 
 **Figure 13 - Paper version**  
 ![Figure 13 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure13.PNG)
 
 **Figure 13 - Replication**  
-![Figure 13 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure13.PNG)
+![Figure 13 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure13.png)
 
 **Figure 14 - Paper version**  
 ![Figure 14 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure14.PNG)
 
 **Figure 14 - Replication**  
-![Figure 14 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure14.PNG)
+![Figure 14 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure14.png)
 
 ### Tables
 The table do-files were the last ones I ran and no error occured. The only missing part in do-files [05](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_05_table_01.do) and [06](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_06_tables_02_03_04_05.do) were a proper code that allows exporting tables to Latex, for example. All tables are saved in .txt format, so, in the absence of a better way to solve it, I prepared the ["table generator"](https://github.com/debamazetto/econ8410_replication/blob/master/tables.xlsx) file to help future replications.
@@ -174,31 +174,31 @@ However, the results I obtained with the same code and data were not exactly the
 ![Table 1 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table1.PNG)
 
 **Table 1 - Replication**  
-![Table 1 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table1.PNG)
+![Table 1 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table1.png)
 
 **Table 2 - Paper version**  
 ![Table 2 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table2.PNG)
 
 **Table 2 - Replication**  
-![Table 2 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table2.PNG)
+![Table 2 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table2.png)
 
 **Table 3 - Paper version**  
 ![Table 3 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table3.PNG)
 
 **Table 3 - Replication**  
-![Table 3 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table3.PNG)
+![Table 3 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table3.png)
 
 **Table 4 - Paper version**  
 ![Table 4 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table4.PNG)
 
 **Table 4 - Replication**  
-![Table 4 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table4.PNG)
+![Table 4 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table4.png)
 
 **Table 5 - Paper version**  
 ![Table 5 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table5.PNG)
 
 **Table 5 - Replication**  
-![Table 5 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table5.PNG)
+![Table 5 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table5.png)
 
 ## Classification
 > INSTRUCTIONS: Make an assessment here.

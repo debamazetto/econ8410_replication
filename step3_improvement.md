@@ -106,7 +106,7 @@ Besides that, when small erros in the graphs code, the result is very close to t
 ![Figure 4 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure4.png)
 
 **Figure 5 - Paper version**  
-![Figure 5 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure51.PNG)
+![Figure 5 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_figure5.PNG)
 
 **Figure 5 - Replication**  
 ![Figure 5 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/figure5.png)
@@ -174,59 +174,41 @@ However, the results I obtained with the same code and data were not exactly the
 ![Table 1 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table1.PNG)
 
 **Table 1 - Replication**  
-![Table 1 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table1.png)
+![Table 1 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table1.PNG)
 
 **Table 2 - Paper version**  
 ![Table 2 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table2.PNG)
 
 **Table 2 - Replication**  
-![Table 2 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table2.png)
+![Table 2 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table2.PNG)
 
 **Table 3 - Paper version**  
 ![Table 3 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table3.PNG)
 
 **Table 3 - Replication**  
-![Table 3 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table3.png)
+![Table 3 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table3.PNG)
 
 **Table 4 - Paper version**  
 ![Table 4 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table4.PNG)
 
 **Table 4 - Replication**  
-![Table 4 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table4.png)
+![Table 4 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table4.PNG)
 
 **Table 5 - Paper version**  
 ![Table 5 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table5.PNG)
 
 **Table 5 - Replication**  
-![Table 5 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table5.png)
+![Table 5 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table5.PNG)
 
-## Classification
-> INSTRUCTIONS: Make an assessment here.
->
-> Full reproduction can include a small number of apparently insignificant changes in the numbers in the table. Full reproduction also applies when changes to the programs needed to be made, but were successfully implemented.
->
-> Partial reproduction means that a significant number (>25%) of programs and/or numbers are different.
->
-> Note that if any data is confidential and not available, then a partial reproduction applies. This should be noted in the Reasons
->
-> Note that when all data is confidential, it is unlikely that this exercise should have been attempted.
->
-> Failure to reproduce: only a small number of programs ran successfully, or only a small number of numbers were successfully generated (<25%)
+## Conclusion
+With the files provided by the authors, it was possible to reproduce all tables and figures. However, the exact number were not obtained. One reason for this can be the missing weight variable "wtsupp", for which I tryed to find a substitute in my best knowledge.
 
-- [ ] full reproduction
-- [ ] full reproduction with minor issues
-- [ ] partial reproduction (see above)
-- [ ] not able to reproduce most or all of the results (reasons see above)
+Although part of the code had to be fixed in small points, the do-files provided were well commented, what made this easier.
+
+Finally, because some variables were missing in the document that presents data source, I prepared a complete documentation of all variables and data stract. Nonetheless, obtaining the data necessary for the reproduction was feasible.
 
 ### Reason for incomplete reproducibility
-
-> INSTRUCTIONS: mark the reasons here why full reproduciblity was not achieved, and enter this information in JIRA
-
-- [ ] `Discrepancy in output` (either figures or numbers in tables or text differ)
-- [ ] `Bugs in code`  that  were fixable by the replicator (but should be fixed in the final deposit)
-- [ ] `Code missing`, in particular if it  prevented the replicator from completing the reproducibility check
-- [ ] `Code not functional` is more severe than a simple bug: it  prevented the replicator from completing the reproducibility check
-- [ ] `Software not available to replicator`  may happen for a variety of reasons, but in particular (a) when the software is commercial, and the replicator does not have access to a licensed copy, or (b) the software is open-source, but a specific version required to conduct the reproducibility check is not available.
-- [ ] `Insufficient time available to replicator` is applicable when (a) running the code would take weeks or more (b) running the code might take less time if sufficient compute resources were to be brought to bear, but no such resources can be accessed in a timely fashion (c) the replication package is very complex, and following all (manual and scripted) steps would take too long.
-- [ ] `Data missing` is marked when data *should* be available, but was erroneously not provided, or is not accessible via the procedures described in the replication package
-- [ ] `Data not available` is marked when data requires additional access steps, for instance purchase or application procedure. 
+- [ ] `Discrepancy in output`, either figures or numbers in tables differ.
+- [ ] `Bugs in code`  that  were fixable by the replicator.
+- [ ] `Data missing`, in particular the weight variable "wtsupp" for tables and figures.
+- [ ] `Absence of read me file` with better instructions for the reproducibility and misleading numeration of do-files.

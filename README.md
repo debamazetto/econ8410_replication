@@ -1,18 +1,6 @@
-# replication-template
-A template for starting a replication/ reproducibility exercise.
+# Read me first
+All the files contained in this repository rely on public data or documents provided by Schwandt and von Wachter within the scope of the paper "Unlucky Cohorts: Estimating the Long-Term Effects of Entering the Labor Market in a Recession in Large Cross-Sectional Data Sets", _Journal of Labor Economics_, 2019, vol. 37, no. S1, [DOI](https://www.journals.uchicago.edu/doi/abs/10.1086/701046).
 
-To start, DOWNLOAD (do not clone) this repository
- - click on the green Download button over to the right
- - use [this link](https://github.com/AEADataEditor/replication-template/archive/master.zip)
- - from the command line,
-```
-wget https://github.com/AEADataEditor/replication-template/archive/master.zip
-```
+All replications tried to follow the instructions in the material provided by the authors in my best knowledge.
 
-Afterwards, you should download the manuscript or article code archive, and unzip it on top of the template.
-
-> Delete this README! (If you leave it, it's like keeping your price tag on your jacket...)
-
-Finally, create a NEW repository as directed by your supervisor, and commit the initial set of code (but not data). Then start running things!
-
-We have a [document that has the most frequently used responses to authors](sample-language-report.md).
+For more informations, please refer to the 

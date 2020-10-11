@@ -8,12 +8,14 @@ The paper uses public data - the Annual Social and Economic Supplement (ASEC) to
 
 I thank the authors for an excellent reproducible replication archive. I have a few additional, relatively minor issues, in order to bring the replication archive easier to for other people to replicate all figures and tables.
 
-### Data description
-----------------
+Thus, this file aims to suggest modifications and improvements to the original replication files.
 
+## Data description
 ### Data Sources
-
-> INSTRUCTIONS: Identify all INPUT data sources. Create a list (and commit the list together with this report) (not needed if filling out the "Data Citation and Information report"). For each data source, list in THIS document presence or absence of source, codebook/information on the data, and summary statistics. Summary statistics and codebook may not be necessary if they are available for public use data. In all cases, if the author of the article points to an online location for such information, that is OK. Check for data citation. IN THIS DOCUMENT, point out only a summary of shortcomings.
+Although data is not provided, all data can be downloaded at:
+* **Unemployment rates**: [Bureau of Labor Statistics](http://download.bls.gov/pub/time.series/la/), file "_la.data.3.AllStatesS_".
+* **CPS data**: [IPUMS-CPS](https://cps.ipums.org/cps/), variables listed in the file () you can select the variables and the sample extract following instructions in the "Data_Sources_Overview" file. However, some of the variables used by the authors are not specified and the replicator must be careful when running the programs. It is necessary to create an account and log in in order to download the sample extract.
+* **US Census and American Community Survey**: at [IPUMS-Census](https://usa.ipums.org/usa/) you can select the variables and the sample extract following instructions in the "Data_Sources_Overview" file, and all the variables used by the authors are mentioned correctly. It is necessary to create an account and log in in order to download the sample extract and it is the same log in for the CPS source.
 
 #### Example data
 

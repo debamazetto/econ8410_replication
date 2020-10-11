@@ -83,7 +83,10 @@ However, the results I obtained with the same code and data were not exactly the
 
 **Table 1 - Paper version**  
 ![Table 1 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table1.PNG)
-**Table 1 - Replication**  
+
+**Table 1 - Replication**
+![Table 1 - Replication](https://github.com/debamazetto/econ8410_replication/blob/master/results/table1.png)
+
 
 
 

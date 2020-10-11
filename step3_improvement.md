@@ -19,7 +19,9 @@ Although data is not provided, all data can be downloaded at:
 
 For both CPS and Census, it is necessary to register at IPUMS website, without any fees.
 
-### Analysis of data files
+### Files and requirements
+It is not necessary specific system requirements to run the do-files, but only Stata available to reproduce all figures and tables. Each do-file identifies correctly which figure or table will be produced with the following code.
+
 The do-files [00 Getting U rates](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_00_getting_urates.do) and [01 Cleaning CPS](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_01_cleaning_cps.do) allow you to obtain the two main databases for the replication of most of the tables. Those do-files are originally created by Schwandt & von Wachter and were modified by me to fix small mistakes, such as missing variables and graph specification.
 
 All do-files were well commented and organized, what made the replication job easy. However, although the authors enumerated the do-files, the order for replication from scratch should not follow the numeration of the files. Rather, for replication, should proceed with the following files:
@@ -31,142 +33,22 @@ All do-files were well commented and organized, what made the replication job ea
 * 05 Table 1
 * 06 Tables 2-5
 
-### Requirements 
+I added two important important features to the do-files:
+1. Directory creation: [initial code](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/config.do) creates folders for data, results, and log-files. However, it is important to be careful to where each data file is saved and substitute correctly the path in the beginning of each code.
+2. Log-files: [initial code](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/config.do) also creates log-files for each do-file. This is important for backup and comparisson in case the code needs to be changed.
 
-> INSTRUCTIONS: Check that these requirements are met. 
-
-- [ ] README is in TXT, MD, PDF format
-- [ ] openICPSR deposit has no ZIP files
-- [ ] Title conforms to guidance (starts with "Data and Code for:" or "Code for:", is properly capitalized)
-- [ ] Authors (with affiliations) are listed in the same order as on the paper
-
-> INSTRUCTIONS: If any of the above are NOT checked, leave the related [REQUIRED] element here. Otherwise, delete the line.
-
-> [REQUIRED] Please ensure that a ASCII (txt), Markdown (md), or PDF version of the README are available in the data and code deposit.
-
-> [REQUIRED] openICPSR should not have ZIP files visible. ZIP files should be uploaded to openICPSR via "Import from ZIP" instead of "Upload Files". Please delete the ZIP files, and re-upload using the "Import from ZIP" function.
-
-> [REQUIRED] Please review the title of the openICPSR deposit as per our guidelines (below).
-
-> [REQUIRED] Please review authors and affiliations on the openICPSR deposit. In general, they are the same, and in the same order, as for the manuscript; however, authors can deviate from that order.
-
-
-### Deposit Metadata
-
-> INSTRUCTIONS: Some of these are specific to openICPSR (JEL, Manuscript Number). Others may or may not be present at other trusted repositories (Dataverse, Zenodo, etc.). Verify all items for openICPSR, check with supervisor for other deposits.
-
-- [ ] JEL Classification (required)
-- [ ] Manuscript Number (required)
-- [ ] Subject Terms (highly recommended)
-- [ ] Geographic coverage (highly recommended)
-- [ ] Time period(s) (highly recommended)
-- [ ] Collection date(s) (suggested)
-- [ ] Universe (suggested)
-- [ ] Data Type(s) (suggested)
-- [ ] Data Source (suggested)
-- [ ] Units of Observation (suggested)
-
-> INSTRUCTIONS: Go through the checklist above, and then choose ONE of the following results:
-
-- [NOTE] openICPSR metadata is sufficient.
-
-or
-
-- [REQUIRED] Please update the openICPSR metadata fields marked as (required), in order to improve findability of your data and code supplement. 
-
-and/or
-
-- [SUGGESTED] We suggest you update the openICPSR metadata fields marked as (suggested), in order to improve findability of your data and code supplement. 
-
-For additional guidance, see [https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html](https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html).
-
-Data checks
------------
-
-> INSTRUCTIONS: When data are present, run checks:
-> - can data be read (using software indicated by author)?
-> - Is data in archive-ready formats (CSV, TXT) or in custom formats (DTA, SAS7BDAT, Rdata)? Note: Numbers and Mathematica data files are not considered archive-safe and cannot be accepted. 
-> - Does the data have variable labels (Stata: run `describe using (name of DTA)` and check that there is content in the column "variable label")?
-> - Run check for PII ([PII_stata_scan.do](PII_stata_scan.do), sourced from [here](https://github.com/J-PAL/stata_PII_scan) if using Stata) and report results. Note: this check will have lots of false positives - fields it thinks might be sensitive that are not, in fact, sensitive. Apply judgement.
-
-
-Code description
-----------------
-> INSTRUCTIONS: Review the code (but do not run it yet). Identify programs that create "analysis files" ("data preparation code"). Identify programs that create tables and figures. Not every deposit will have separate programs for this.
-
-> INSTRUCTIONS: Identify all **Figure, Table, and any in-text numbers**. Create a list, mapping each of them to a particular program and line number within the program (use [this template](code-check-TEMPLATE.xlsx)). Commit that list. You will come back to the list in your findings. IN THIS SECTION, point out only a summary description, including of shortcomings. E.g.
-
-There are four provided Stata do files, three Matlab .m files, including a "master.do".
-
-- Table 5: could not identify code that produces Table 5
-- Neither the program codes, nor the README, identify which tables are produced by what program.
-
-> NOTE: In-text numbers that reference numbers in tables do not need to be listed. Only in-text numbers that correspond to no table or figure need to be listed.
-
-Stated Requirements
----------------------
-
-> INSTRUCTIONS: The authors may have specified specific requirements in terms of software, computer hardware, etc. Please list them here. This is **different** from the Computing Environment of the Replicator. You have the option to amend these with unstated requirements later. If all requirements are listed, check the box "Requirements are complete".
-
-- [ ] No requirements specified
-- [ ] Software Requirements specified as follows:
-  - Software 1
-  - Software 2
-- [ ] Computational Requirements specified as follows:
-  - Cluster size, etc.
-- [ ] Time Requirements specified as follows:
-  - Length of necessary computation (hours, weeks, etc.)
-
-- [ ] Requirements are complete.
-
-> If easier, simply copy-and-paste the authors' stated requirements here:
-
-
-Actual Requirements, if different
----------------------------------
-
-> INSTRUCTIONS: If it turns out that some requirements were not stated/ are incomplete (software, packages, operating system), please list the *complete* list of requirements here. If the stated requirements are complete, delete this section, including the requirement at the end.
-
-- [ ] Software Requirements 
-  - [ ] Stata
-    - Packages go here
-  - [ ] Matlab
-  - [ ] R
-    - R packages go here
-  - [ ] REPLACE ME WITH OTHER
-- [ ] Computational Requirements specified as follows:
-  - Cluster size, etc.
-- [ ] Time Requirements 
-  - Length of necessary computation (hours, weeks, etc.)
-
-> [REQUIRED] Please amend README to contain complete requirements. 
-
-You can copy the section above, amended if necessary.
-
-Computing Environment of the Replicator
----------------------
-
-> INSTRUCTIONS: This might be automated, for now, please fill in manually. Remove examples that are not relevant, adjust examples to fit special circumstances. Some of this is available from the standard log output in Stata or R. Some frequently used details are below. Some of these details can be found as follows:
->
-> - (Windows) by right-clicking on "This PC"
-> - (Mac) Apple-menu > "About this Mac"
-> - (Linux) see code in `tools/linux-system-info.sh`
-
-- Mac Laptop, MacOS 10.14.6, 8 GB of memory
-- CISER Shared Windows Server 2019, 256GB, Intel Xeon E5-4669 v3 @ 2.10Ghz (3 processors)
-- CISER Virtual Windows Server 2016, 16GB, Intel Haswell 2.19 Ghz (2 processors)
-- BioHPC Linux server, Centos 7.6, 64 cores; 1024GB RAM; 
-
-> INSTRUCTIONS: Please also list the software you used (specific versions). List only the ones you used, add any not listed in the examples:
-
-- Stata/MP 16.1
-- Matlab R2019a
-- Intel Compiler 3.14152
-
-Replication steps
------------------
-
-> INSTRUCTIONS: provide details about your process of accessing the code and data.
+## Replication steps
+In order for the replication occurs correctly, the user should follow these instructions:
+1. Create all directories necessary for the replication. Please, follow the exact same stated bellow, except for the root folder, that can be of your choice. This will make it easier to change only few code lines in each do-file.
+  * Root: where all other folders will be saved;  
+  * Data: folder where you must save data files. Inside this folder, create the following folders:  
+    ** Census: save the Census data here;  
+    ** CPS: save the CPS data here;  
+    ** U rates: save the unemployment rate data here;  
+    ** Results: all the results (figures, tables, final databases) will be saved here automatically.  
+  * Do-files: download all do-files that are in the [repository folder](https://github.com/debamazetto/econ8410_replication/blob/master/do-files) and save in this folder.  
+  * Log-files: all log-files will be saved here automatically.  
+2. Download all data to the correspondent folders. Download the unemployment rates in .txt and CPS and Census in .dta formats.  
 > Do NOT detail things like "I save them on my Desktop".
 > DO describe actions   that you did  as per instructions ("I added a config.do")
 > DO describe any other actions you needed to do ("I had to make changes in multiple programs"), without going into detail (the commit log can provide that information)

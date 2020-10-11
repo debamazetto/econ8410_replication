@@ -70,13 +70,22 @@ Thus, in order for the replication occurs correctly, the user should follow thes
 
 ## Findings
 ### Data preparation code
-As mentioned before, the do-files are organized and well commented by the authors. The replication of data cleaning, however, was harder than expected because some variables were not mentioned by the authors in the document "Data_Sources_Overview". So I had to go back to the original source a couple of times to add those variables to the list.  
-Particularly, the cleaning of the Census data needs a database that is created by do-files [03](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_03_figures_02_05_06_07_08_09_10_11_12_13_14.do) and [04](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_04_figures_03_04.do). Thus, the numeration of the do-files is misleading in a way.  
+As mentioned before, the do-files are organized and well commented by the authors. The replication of data cleaning, however, was harder than expected because some variables were not mentioned by the authors in the document "Data_Sources_Overview". So I had to go back to the original source a couple of times to add those variables to the list.
+
+Particularly, the cleaning of the Census data needs a database that is created by do-files [03](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_03_figures_02_05_06_07_08_09_10_11_12_13_14.do) and [04](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_04_figures_03_04.do). Thus, the numeration of the do-files is misleading in a way.
+
 Solved these deficiencies, the data preparation code ran smoothly.
 
 ### Tables
-The table do-files were the last ones I ran and no error occured. The only missing part in do-files [05](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_05_table_01.do) and [06](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_06_tables_02_03_04_05.do) were a proper code that allows exporting tables to Latex, for example. All tables are saved in .txt format, so, in the absence of a better way to solve it, I prepared the [table generator](https://github.com/debamazetto/econ8410_replication/blob/master/tables.xlsx) file to help future replications.  
+The table do-files were the last ones I ran and no error occured. The only missing part in do-files [05](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_05_table_01.do) and [06](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_06_tables_02_03_04_05.do) were a proper code that allows exporting tables to Latex, for example. All tables are saved in .txt format, so, in the absence of a better way to solve it, I prepared the ["table generator"](https://github.com/debamazetto/econ8410_replication/blob/master/tables.xlsx) file to help future replications.
+
 However, the results I obtained with the same code and data were not exactly the same as shown in the paper.
+
+**Table 1 - Paper version**  
+![Table 1 - Paper version](https://github.com/debamazetto/econ8410_replication/blob/master/original/original_table1.PNG)
+**Table 1 - Replication**  
+
+
 
 ### Figures
 

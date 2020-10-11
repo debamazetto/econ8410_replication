@@ -547,6 +547,7 @@ twoway (scatter _lnincwage _exp, $graph1) ///
 	symxsize(4) col(2)) ytitle("Effect on log earnings", size(large)) ///
 	saving("${results}robust_Census_CPS_age_Adj", replace) $graphoptionsage ylabel(-.04(.02).02) xtitle("Years since Graduation [Age]", height(6)) xlabel(1 "1 [19]" 5 "5 [23]" 9 "9 [27]" 13 "13 [31]")
 graph export "${resultspaper}bridge_Census_CPS_age_Adj.eps", replace
+graph export "${results}\figure3.png", replace //I added this line to save graphs as image
 
 *With IV specification
 * Figure 4
@@ -557,5 +558,6 @@ twoway (scatter _lnincwage _exp, $graph1) ///
 	legend(order(1 "CPS, Mincerian (baseline)" 2 "Census, Mincerian" 3 "Census, Double-Weighted" 4 " Double-Weighted as IV for baseline" ) symxsize(4) col(2)) ytitle("Effect on log earnings", size(large)) ///
 	$graphoptionsage ylabel(-.06(.02).02) xtitle("Years since Graduation [Age]", height(6)) xlabel(1 "1 [19]" 5 "5 [23]" 9 "9 [27]" 13 "13 [31]")
 graph export "${resultspaper}bridge_Census_CPS_age_Adj_IV.eps", replace
+graph export "${results}\figure4.png", replace //I added this line to save graphs as image
 
 cap log close //I had to add that

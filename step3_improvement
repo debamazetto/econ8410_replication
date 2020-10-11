@@ -11,43 +11,25 @@ I thank the authors for an excellent reproducible replication archive. I have a 
 Thus, this file aims to suggest modifications and improvements to the original replication files.
 
 ## Data description
-### Data Sources
+### Data sources
 Although data is not provided, all data can be downloaded at:
 * **Unemployment rates**: [Bureau of Labor Statistics](http://download.bls.gov/pub/time.series/la/), file "_la.data.3.AllStatesS_".
-* **CPS data**: [IPUMS-CPS](https://cps.ipums.org/cps/), variables listed in the file () you can select the variables and the sample extract following instructions in the "Data_Sources_Overview" file. However, some of the variables used by the authors are not specified and the replicator must be careful when running the programs. It is necessary to create an account and log in in order to download the sample extract.
-* **US Census and American Community Survey**: at [IPUMS-Census](https://usa.ipums.org/usa/) you can select the variables and the sample extract following instructions in the "Data_Sources_Overview" file, and all the variables used by the authors are mentioned correctly. It is necessary to create an account and log in in order to download the sample extract and it is the same log in for the CPS source.
+* **CPS data**: [IPUMS-CPS](https://cps.ipums.org/cps/). Although the authors provide a list with the variables and sample selection, some variables used in the do-files are missing. Thus, I prepared the file with the complete [list of variables](https://github.com/debamazetto/econ8410_replication/blob/master/variables.xlsx) for CPS.
+* **US Census and American Community Survey**: [IPUMS-Census](https://usa.ipums.org/usa/). The authors provide a list with the variables and sample selection and I compiled the Census list of variables along with CPS, you can find it in the [same document](https://github.com/debamazetto/econ8410_replication/blob/master/variables.xlsx).
 
-#### Example data
+For both CPS and Census, it is necessary to register at IPUMS website, without any fees.
 
-- Data is not provided, but a link is provided in the README
-- Access conditions are not described. It turns out, the website requires registration and payment of a fee
-- The data is not cited in the paper nor in the README.
+### Analysis of data files
+The do-files [00 Getting U rates](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_00_getting_urates.do) and [01 Cleaning CPS](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_01_cleaning_cps.do) allow you to obtain the two main databases for the replication of most of the tables. Those do-files are originally created by Schwandt & von Wachter and were modified by me to fix small mistakes, such as missing variables and graph specification.
 
-### Analysis Data Files
-
-> INSTRUCTIONS: Separately, identify any analysis data file provided. Analysis data files are produced by code in the deposit from data sources. Not every deposit will have these.
-
-- [ ] No analysis data file mentioned
-- [ ] Analysis data files mentioned, not provided (explain reasons below)
-- [ ] Analysis data files mentioned, provided. File names listed below.
-
-> INSTRUCTIONS: List all provided filenames here. For large deposits, this can be done using the "Git Bash" program:
-> > find . -name \*.dta
-> will list all Stata datasets. Replace `dta` with `.Rdata` or any other extension to find other datafiles.
-
-Example:
-
-```
-./Output_Empirical/data/census_shp/counties_coord.dta
-./Output_Empirical/data/census_shp/counties_db.dta
-./Output_Empirical/data/census_shp/state_coord.dta
-./Output_Empirical/data/census_shp/state_db.dta
-```
-
-Data deposit
-------------
-
-> INSTRUCTIONS: Most deposits will be at openICPSR, but all need to be checked for complete metadata. Detailed guidance is at [https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html](https://aeadataeditor.github.io/aea-de-guidance/data-deposit-aea-guidance.html). 
+All do-files were well commented and organized, what made the replication job easy. However, although the authors enumerated the do-files, the order for replication from scratch should not follow the numeration of the files. Rather, for replication, should proceed with the following files:
+* 00 Getting U rates
+* 01 Cleaning CPS
+* 03 Figures 2, 5-14
+* 04 Figures 3 and 4
+* 02 Figure 1
+* 05 Table 1
+* 06 Tables 2-5
 
 ### Requirements 
 

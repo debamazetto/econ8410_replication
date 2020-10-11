@@ -38,30 +38,37 @@ I added two important important features to the do-files:
 2. Log-files: [initial code](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/config.do) also creates log-files for each do-file. This is important for backup and comparisson in case the code needs to be changed.
 
 ## Replication steps
-In order for the replication occurs correctly, the user should follow these instructions:
-1. Create all directories necessary for the replication. Please, follow the exact same stated bellow, except for the root folder, that can be of your choice. This will make it easier to change only few code lines in each do-file.
+Those were the steps I followed for the replication:
+1. Downloaded code provided by the authors.
+2. Downloaded data from URL indicated in the "Data_Sources_Overview". A sign-up was required (not indicated in the beginning).
+3. Added the config.do generating system information since author's do-files do not create log-files.
+4. Ran code as per "List of Programs" and the numeration of the do-files. However, on do-file 01, it did not work because there were some variables that were not listed in the "Data_Sources_Overview".
+5. Downloaded the file again with all the necessary variables.
+6. Noticed the order to run the code should not follow the numeration in the files because some modified databases used in the first do-files are created only by late do-files. That is way the order is changed.
+7. Noticed one variable was missing ("wtsupp"). I could not find this variable in the CPS website but, looking at the metadata files, I concluded this variable is the same as "asecwt" giving the CPS supplement authors are using.
+8. Made changes necessary to the code, such as installing some commands and graph commands that were not correct.
+
+Thus, in order for the replication occurs correctly, the user should follow these instructions:
+1. Create all directories necessary for the replication. Please, follow the exact same stated bellow, except for the root folder, that can be of your choice. This will make it easier to change only few code lines in each do-file.  
   * Root: where all other folders will be saved;  
   * Data: folder where you must save data files. Inside this folder, create the following folders:  
-    ** Census: save the Census data here;  
-    ** CPS: save the CPS data here;  
-    ** U rates: save the unemployment rate data here;  
-    ** Results: all the results (figures, tables, final databases) will be saved here automatically.  
+    * Census: save the Census data here;  
+    * CPS: save the CPS data here;  
+    * U rates: save the unemployment rate data here;  
+    * Results: all the results (figures, tables, final databases) will be saved here automatically.  
   * Do-files: download all do-files that are in the [repository folder](https://github.com/debamazetto/econ8410_replication/blob/master/do-files) and save in this folder.  
   * Log-files: all log-files will be saved here automatically.  
 2. Download all data to the correspondent folders. Download the unemployment rates in .txt and CPS and Census in .dta formats.  
-> Do NOT detail things like "I save them on my Desktop".
-> DO describe actions   that you did  as per instructions ("I added a config.do")
-> DO describe any other actions you needed to do ("I had to make changes in multiple programs"), without going into detail (the commit log can provide that information)
+3. Run each do-file in the following order. Do not forget to change the path on the beginning of each do-file to match your root directory.  
+ * [00 Getting U rates](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_00_getting_urates.do)
+ * [01 Cleaning CPS](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_01_cleaning_cps.do)
+ * [03 Figures 2, 5-14](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_03_figures_02_05_06_07_08_09_10_11_12_13_14.do)
+ * [04 Figures 3 and 4](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_04_figures_03_04.do)
+ * [02 Figure 1](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_02_figure_01.do)
+ * [05 Table 1](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_05_table_01.do)
+ * [06 Tables 2-5](https://github.com/debamazetto/econ8410_replication/blob/master/do-files/replication_06_tables_02_03_04_05.do)
 
-Example:
-
-1. Downloaded code from URL provided.
-2. Downloaded data from URL indicated in the README. A sign-up was required (not indicated in README)
-3. Added the config.do generating system information, but commented out log creation, as author already creates log files.
-4. Ran code as per README, but the third step did not work.
-5. Made changes to the way the third step is run to get it to work.
-
-Findings
+## Findings
 --------
 
 > INSTRUCTIONS: Describe your findings both positive and negative in some detail, for each **Data Preparation Code, Figure, Table, and any in-text numbers**. You can re-use the Excel file created under *Code Description*. When errors happen, be as precise as possible. For differences in figures, provide both a screenshot of what the manuscript contains, as well as the figure produced by the code you ran. For differences in numbers, provide both the number as reported in the manuscript, as well as the number replicated. If too many numbers, contact your supervisor.

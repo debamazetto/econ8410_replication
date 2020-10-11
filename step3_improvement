@@ -1,21 +1,14 @@
-# [MC number] [Manuscript Title] Validation and Replication results
+# Replication: Improvement
+## [JOLE-2019-37S1-0012] "Unlucky Cohorts: Estimating the Long-Term Effects of Entering the Labor Market in a Recession in Large Cross-Sectional Data Sets", Schwandt & von Wachter
 
-> INSTRUCTIONS: Once you've read these instructions, DELETE THESE AND SIMILAR LINES.
-> In the above title, replace [Manuscript Title] with the actual title of the paper, and [MC number] with the Manuscript Central number (e.g., AEJPol-2017-0097)
-> Go through the steps to download and attempt a replication. Document your steps here, the errors generated, and the steps you took to alleviate those errors.
+## Summary
+The replication refers to the paper Schwandt, Hannes and von Wachter, Till (2018) "Unlucky Cohorts: Estimating the Long-Term Effects of Entering the Labor Market in a Recession in Large Cross-Sectional Data Sets". _Journal of Labor Economics_, 2019, vol. 37, no. S1, [DOI](https://www.journals.uchicago.edu/doi/abs/10.1086/701046).
 
-> Some useful links:
-> - [Official Data and Code Availability Policy](https://www.aeaweb.org/journals/policies/data-code)
-> - [Unofficial Verification Guidance](https://social-science-data-editors.github.io/guidance/Verification_guidance.html) for additional tips and criteria.
+The paper uses public data - the Annual Social and Economic Supplement (ASEC) to the Current Population Survey (CPS), decennial census data, and American Community Survey (ACS) data - that can be easily obtained. Also, authors provide all the necessary do-files for the reproducibility of figures and tables in a very comprehensive way.
 
-SUMMARY
--------
+I thank the authors for an excellent reproducible replication archive. I have a few additional, relatively minor issues, in order to bring the replication archive easier to for other people to replicate all figures and tables.
 
-> INSTRUCTION: The Data Editor will fill this part out. It will be based on any [REQUIRED] and [SUGGESTED] action items that the report makes a note of. 
-
-> INSTRUCTION: ALWAYS do "Data description", "Code description". If data is present, ALWAYS do "Data checks". If time is sufficient (initial assessment!), do "Replication steps", if not, explain why not.
-
-Data description
+### Data description
 ----------------
 
 ### Data Sources
